@@ -25,4 +25,4 @@ To get started, follow these simple steps:
 
 ## Output
 
-![Alt text](https://github.com/Kavya-vinod/Pacewisdom-Internship/blob/main/QRCodeGenerator/output/github_qr_code.png)
+![QR Code](/output/github_qr_code.png)
