@@ -18,7 +18,6 @@ To get started, follow these simple steps:
    
 ## Usage
  To generate a QR code, run the main.py script
-   ```bash
    python main.py
 
 
