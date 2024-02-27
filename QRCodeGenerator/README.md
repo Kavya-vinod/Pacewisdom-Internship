@@ -14,7 +14,6 @@ To get started, follow these simple steps:
    ```bash
     cd QRCodeGenerator
 3. Install the required dependencies using pip:
-   ```bash
     pip install qrcode
    
 ## Usage
