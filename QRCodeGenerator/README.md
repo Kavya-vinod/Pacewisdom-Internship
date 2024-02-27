@@ -22,5 +22,4 @@ To get started, follow these simple steps:
 
 
 ## Output
-
-![QR Code](/output/github_qr_code.png)
+![QR Code](/QRCodeGenerator/output/github_qr_code.png)
