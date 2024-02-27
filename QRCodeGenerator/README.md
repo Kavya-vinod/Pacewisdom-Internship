@@ -24,4 +24,4 @@ To get started, follow these simple steps:
 
 
 ## Output
-   ![Alt text](image ./output/github_qr_code.png)
+   ![Alt text](https://github.com/Kavya-vinod/Pacewisdom-Internship/blob/main/QRCodeGenerator/output/github_qr_code.png)
