@@ -1,0 +1,170 @@
+
+
+.tab{
+    
+  height:84px;
+ 
+background-color: blue;
+}
+.tab img{
+  
+  width: 136px;
+  display: inline-block;
+   position:absolute;
+   margin: 3px;
+   top:10px;
+   left:20px;
+   height: 64px;
+  padding: 2px;
+  
+}
+.tab ul{ 
+  display: block;
+  width:75%;
+  margin:12px auto;
+  
+}
+.tab ul li
+{
+  color: white;
+   margin: 17px 10px;
+   font-size: larger;
+   display:inline-block;
+  list-style: none;
+   padding:5px 5px;
+   
+  }
+
+  .tab li a {
+  
+  text-decoration: none;
+  color:black;
+  }
+  
+.tab li a:hover{
+color: red;
+background-color: rgb(207, 194, 194);
+
+  }
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+#sd{
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 72vh;
+      text-align: center;
+}
+.content{
+      height: 400px;
+      width: 100vw;
+      overflow: hidden;
+      position: absolute;
+  top: 83px;
+}
+.content .images{
+      height: 100%;
+      width: 100%;
+}
+.images img{
+      height: 100%;
+      width: 100%}
+.btm-sliders{
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      display: flex;
+      transform: translateX(-50%);
+}
+      
+.btm-sliders span{
+      height: 15px;
+       width: 50px;
+      border: 2px solid black;
+      margin: 0 3px;
+      cursor: pointer;
+      
+}
+.btm-sliders span:hover{
+      background: white;
+}
+.content .slide{
+          top: 50%;
+           position: absolute;
+            transform: translateY(-50%); 
+            width: 45px; border: 2px solid black; 
+            background:rgba(255,255,255,0.1);
+           cursor: pointer;
+          
+}
+          
+.content .slide:hover{
+          background: rgba(255,255,255,0.2);
+          
+          }
+.slide span{
+           font-size: 35px;
+           color:white;
+           line-height: 41px;
+          }
+.content .right{
+          right:0;
+      }
+#feat{
+  
+  margin: 2px 2px;
+  position: absolute;
+  top: 482px;
+}
+.phead{
+  font-size: 2.5rem;
+}
+.box{
+  display: flex;
+  margin: 2px 2px;
+ 
+}
+
+.org{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 8px 2px;
+  margin: 3px 6px;
+  background-color: rgb(229 220 220);
+
+}
+.org img{
+  display: block;
+  margin: auto;
+  height:160px
+}
+
+.au{
+  margin: 20px 5px;
+  padding: 3px 5px;
+}
+.ceter{
+  text-align: center;
+}
+h2{
+  font-size: larger;
+  font-family: 'Asul';
+}
+h1{
+  font-family: 'Asul';
+  
+}
+.co{
+ 
+ background: url("./img/cot.jpg") no-repeat center center/cover ;
+ height:100px;
+ width:100vw;
+}
+.p{
+  color: white;
+}

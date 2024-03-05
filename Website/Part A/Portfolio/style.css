@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  margin: 0%;
+  background-image: url("/images/12244.jpg");
+  font-family: "Madimi One", sans-serif;
+}
+.header-icon {
+  width: 30px;
+  height: 30px;
+  padding-left: 7%;
+}
+
+nav {
+  display: flex;
+  padding-right: 7%;
+}
+.nav-button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.nav-button:hover {
+  border-bottom: 2px solid darkblue;
+  color: darkblue;
+}
+
+.home-body-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about {
+  padding-left: 20px;
+}
