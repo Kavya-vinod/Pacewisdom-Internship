@@ -1,0 +1,152 @@
+$button-hover-color:rgb(13, 14, 15);
+
+body{
+    background-color: black;
+    color: white;
+}
+.nav-button{
+    margin: 5px;
+    border: 0;
+    background-color:transparent;
+    text-decoration: none;
+    color: black;   
+  
+
+    &:hover {
+        border-bottom: 2px solid $button-hover-color;
+        margin-bottom: -2px;
+        text-decoration: none;
+      }
+}
+    
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./VR.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-width: 10%;
+    position: relative;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+    border: 0;
+}
+
+.heading {
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #0b0668;
+        
+}
+
+.custom-button:hover {
+    background-color: #0056b3; 
+}
+
+.vr-features-section-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .vr-features-card-image {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .vr-features-card-title {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .vr-features-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  
+  .interaction {
+    color: #1f2933;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .vr-kit-section {
+    background-color: #f9fbfe;
+  }
+  
+  .vr-kit-section-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .vr-kit-card-image {
+    width: 200px;
+    height: 250px;
+  }
+  
+  .vr-kit-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .optics-and-controllers-section-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .optics-and-controllers-section-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .optics-and-controllers-section-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+  
+  .custom-button {
+    color: white;
+    background-color: #1a2137;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 4px;
+  }
+  
+  .contact-us-section {
+    background-color: #f7f5f5
+  }
