@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('internet.webp'); 
+    background-size: cover; 
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #message {
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 30px 0;
+    border-radius: 8px;
+    font-size: 4vmin;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+  }
+  
+  .white-text {
+    color: #fff; /* White text color */
+  }
+  
+  .red-text {
+    color: #d32f2f; /* Red text color */
+  }
+  
+  .green-text {
+    color: #6cc2f4; /* Light blue text color */
+  }
+  
