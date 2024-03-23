@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rock Paper Scissors</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    .result {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+</style>
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">Rock Paper Scissors</h1>
+    <div>
+        <label for="player1">Player 1:</label>
+        <input type="password" id="player1" placeholder="Enter rock, paper, or scissors">
+        <br>
+        <label for="player2">Player 2:</label>
+        <input type="password" id="player2" placeholder="Enter rock, paper, or scissors">
+        <br>
+        <button onclick="play()">Play</button>
+    </div>
+    <div id="result" class="result"></div>
+
+<script>
+function play() {
+    const player1Selection = document.getElementById("player1").value.toLowerCase();
+    const player2Selection = document.getElementById("player2").value.toLowerCase();
+
+    if (!isValidSelection(player1Selection) || !isValidSelection(player2Selection)) {
+        document.getElementById("result").innerHTML = "Invalid selection. Please enter rock, paper, or scissors.";
+        return;
+    }
+
+    let result;
+    if (player1Selection === player2Selection) {
+        result = "It's a tie!";
+    } else if (
+        (player1Selection === 'rock' && player2Selection === 'scissors') ||
+        (player1Selection === 'paper' && player2Selection === 'rock') ||
+        (player1Selection === 'scissors' && player2Selection === 'paper')
+    ) {
+        result = "Player 1 wins! " + player1Selection + " beats " + player2Selection;
+    } else {
+        result = "Player 2 wins! " + player2Selection + " beats " + player1Selection;
+    }
+
+    document.getElementById("result").innerHTML = result;
+}
+
+function isValidSelection(selection) {
+    return ['rock', 'paper', 'scissors'].includes(selection);
+}
+</script>
+
+</body>
+</html>

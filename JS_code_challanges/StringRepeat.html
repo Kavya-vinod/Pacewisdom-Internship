@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>String Repeat</title>
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">String Repeat</h1>
+    <script>
+        var x=prompt('Enter the number of times the string should be repeated and the string both separated by , : ');
+        repeat=function(arr){
+            var a=arr.split(",");
+            const n=parseInt(a[0]);
+            return a[1].repeat(n);
+        }
+        document.write('<h2 style="text-align: center; background-color: rgb(207, 90, 27); border:20px;"> Result is: ' + repeat(x) + '</h2>');
+      </script>
+</body>
+</html>

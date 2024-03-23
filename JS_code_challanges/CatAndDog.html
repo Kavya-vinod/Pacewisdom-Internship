@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cat and Dog Years</title>
+  
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">CAT AND DOG YEARS</h1>
+    <script>
+        function year(x) {
+        let cage;
+        let dage;
+        if (x==1)
+        {
+            return [x,15,15];
+        }
+        if (x==2)
+        {
+            return [x,24,24];
+        }
+
+        const excessyear=x-2;
+        const extracage=excessyear*4;
+        const extradage=excessyear*5;
+        return [x,24+extracage,24+extradage];    
+
+}
+        const x = prompt("Enter human years:");
+        const res = year(x);
+        document.write('<h2 style="text-align: center; background-color: rgb(207, 90, 27); border:20px;"> Result is: ' + res + '</h2>');
+
+    </script>
+</body>
+</html>
+    
+    

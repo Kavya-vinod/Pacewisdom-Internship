@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic operation</title>
+  <style>
+    *
+    {
+        text-align: center;
+        margin:10px;
+    }
+  </style>
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">Sum Of Positive Element in Array</h1>
+    <div>
+        <label for="n1">Number 1:</label>
+        <input type="text" id="n1" placeholder="Enter number 1">
+        <br>
+        <label for="n2">Number 2:</label>
+        <input type="text" id="n2" placeholder="Enter number 2">
+        <br>
+        <label for="op">Operator:</label>
+        <input type="text" id="op" placeholder="Enter operator">
+        <br>
+        <button onclick="result()">Result</button>
+    </div>
+    <div id="result" class="result"></div>
+    <script>
+        function result() {
+    const n1 = document.getElementById("n1").value;
+    const n2 = document.getElementById("n2").value;
+    const op=  document.getElementById("op").value;
+    var res;
+    if (op=="+")
+    {
+        res=parseFloat(n1)+parseFloat(n2);
+    }
+    if (op=="-")
+    {
+        res=parseFloat(n1)-parseFloat(n2);;
+    }
+    if (op=="*")
+    {
+        res=parseFloat(n1)*parseFloat(n2);;
+    }
+    if (op=="/")
+    {
+        res=parseFloat(n1)/parseFloat(n2);;
+    }
+   
+    document.getElementById("result").innerHTML = res;
+        }
+    </script>
+</body>
+</html>
+    
+    

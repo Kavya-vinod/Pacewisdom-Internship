@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counting Sheep</title>
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">Counting Sheep</h1>
+    <script>
+        
+        sheep=function(arr){
+            total=0
+            for(let i=0;i<arr.length;i++)
+            {
+              if(arr[i]=='true')
+              {
+                total+=1;
+              }
+            }
+            return total
+        }
+        const input = prompt("Enter true if the sheep is present else false separated by , :");
+        var array = input.split(",");
+        const res = sheep(array);
+        document.write('<h2 style="text-align: center; background-color: rgb(207, 90, 27); border:20px;"> Result is: ' + res + '</h2>');
+
+      </script>
+</body>
+</html>

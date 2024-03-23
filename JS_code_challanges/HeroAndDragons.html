@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hero and Dragons</title>
+  
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">HERO AND DRAGONS</h1>
+    <script>
+        function hero(arr) {
+            return arr[0]/arr[1] >=2;
+        }
+        const input = prompt("Enter the number of bullets and dragons separated by , :");
+        const array = input.split(",").map(Number);
+        const x = hero(array);
+        if (x==true)
+        {
+            res="Hero won"
+        }
+        else
+        {
+            res="Dragons won";
+        }
+        document.write('<h2 style="text-align: center; background-color: rgb(207, 90, 27); border:20px;"> Result is: ' + res + '</h2>');
+
+    </script>
+</body>
+</html>
+    
+    

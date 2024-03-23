@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>String to array</title>
+  
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">String to array</h1>
+    <script>
+        var x = prompt('Enter a long  String: ');
+        toarray=function(x){
+            return x.split(" ");
+        }
+        document.write('<h2 style="text-align: center; background-color: rgb(207, 90, 27); border:20px;"> Result is: ' + toarray(x) + '</h2>');
+      </script>
+</body>
+</html>

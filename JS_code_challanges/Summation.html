@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Summation</title>
+  
+</head>
+<body>
+    <h1 style="background-color:bisque; text-align: center;">SUMMATION</h1>
+    <script>
+        var num = parseInt(prompt('Enter the number: '));
+        summation=function(num){
+            var i=1;
+            let sum=0;
+            while (i<=num)
+            {
+                sum=sum+i;
+                i++;
+            }
+            return sum;
+        }
+        document.write('<h2 style="text-align: center; background-color: rgb(207, 90, 27); border:20px;"> Result is: ' + summation(num) + '</h2>');
+      </script>
+</body>
+</html>
