@@ -29,4 +29,4 @@ To contribute to the development of this project, follow these steps:
 
 ## Acknowledgments
 
-This project was inspired by [this tutorial on YouTube](https://www.youtube.com/watch?v=ijQ6dCughW8).
+This project was inspired by [How to Build a Kanban Board with JavaScript tutorial on YouTube](https://www.youtube.com/watch?v=ijQ6dCughW8).
